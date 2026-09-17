@@ -1,0 +1,12 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./Quanlysinhvien/mern-demo/.env
+
+  frontend:
+    build: ./Quanlysinhvien/client
+    ports:
+      - "3000:80"
