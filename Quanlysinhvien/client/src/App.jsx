@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div>
-      <h1>Quản lý sinh viên</h1>
+      <h1>Quản lý sinh viên - Phiên bản 2.0</h1>
 
       {/* Câu 48 + Câu 49 */}
       <h2>Thêm sinh viên</h2>

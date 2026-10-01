@@ -7,6 +7,6 @@ services:
       - MONGODB_URI=mongodb+srv://quanlysinhvien:Mongo123@Cluster0.tscun0u.mongodb.net/cloud_lab?retryWrites=true&w=majority&appName=Cluster0
 
   frontend:
-    image: 234774/mern-frontend:1.0
+    image: 234774/mern-frontend:2.0
     ports:
       - "3000:80"
